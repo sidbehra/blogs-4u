@@ -10,7 +10,7 @@ export default function Home() {
   const router = useRouter();
 
   const handleBlogClick = (blogId: string) => {
-    router.push(`/home/blog/${blogId}`);
+    router.push(`/blog/${blogId}`);
   };
 
   // Filter only published blogs
